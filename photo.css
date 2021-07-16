@@ -1,0 +1,525 @@
+#bodyheader{ 
+    height:90vh;
+    background-image : url("header2.jpg");
+    background-position:bottom right;
+    background-size: cover;
+    margin-top:0px;
+    background-attachment:fixed;
+  /* linear-gradient(50deg, #2857a4 0%, #403066 74%);*/
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+                                                         /* Horizontal List */
+  
+nav ul{
+    list-style:none;
+    /*position:absolute;*/
+     margin: 0px 8px 8px 0px;
+    top:50px;
+    text-align:center;
+    /*margin-left:26%*/
+}
+
+nav ul li{
+    display:inline-block;
+     margin-top:25px;
+    text-decoration:bolder;
+    font-size:20px;
+    margin-right:26px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:color 0.5s, border-bottom 4s;
+}
+
+nav ul li a:hover{
+    color:lightgrey;
+    text-decoration:underline;
+}
+
+
+
+  
+                                                            /* Icon list */
+
+div ul{
+    text-align:center;
+    margin-top:20vh;
+}
+
+div ul li{
+    display:inline-block;
+    margin-right:20px;
+    border-radius:50%
+}
+
+div ul li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+div ul li a i{
+    color:white;
+    text-decoration:none;
+    transition:color 0.5s, border-bottom 4s;
+    padding:10px;
+    font-size:2rem;
+}
+
+div ul li a:hover{
+ box-shadow: 0px 0px 10px 08px rgba(230,196,196,0.2);
+}
+
+
+                                                   /* Name in Header */
+                           
+                           
+#name{
+    font-size:50px;
+    margin-top: 25vh;
+    font-weight: 200;
+    margin-bottom: 100px;
+    color:white;
+    font-family: lucida calligraphy; 
+    margin-left:465px;   
+}  
+#amisha{
+    color:cyan;
+    background-attachment:fixed;
+    position: fixed;
+}         
+
+.img{
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+
+@media only screen and (max-width: 1300px){
+                             
+#name{
+    font-size:50px;
+    margin-top: 30vh;
+    font-weight: 200;
+    margin-bottom: 100px;
+    color:white;
+    font-family: lucida calligraphy; 
+    margin-left:260px;   
+}
+div ul{
+    text-align:center;
+    margin-top:20vh;
+}
+#bodyheader{ 
+    height:90vh;
+    background-image : url("header2.jpg");
+    background-position:bottom right;
+    background-size: cover;
+    margin-top:0px;
+    background-attachment:fixed;
+    max-width: 1300px;
+} 
+.img5{
+    margin-top: 30px;
+}  
+.img6{
+    margin-top: 90px;
+}
+}
+
+@media only screen and (max-width: 900px){                           
+#name{
+    font-size:50px;
+    margin-top: 30vh;
+    font-weight: 200;
+    margin-bottom: 100px;
+    color:white;
+    font-family: lucida calligraphy; 
+    margin-left:200px;   
+}
+div ul{
+    text-align:center;
+    margin-top:16vh;
+}
+#bodyheader{ 
+    height:90vh;
+    background-image : url("header2.jpg");
+    background-position:bottom right;
+    background-size: cover;
+    margin-top:0px;
+    background-attachment:fixed;
+    max-width: 900px;
+}
+.img4{
+    margin-top: 30vh;
+}   
+}
+
+
+@media only screen and (max-width: 500px){                          
+#name{
+    font-size:50px;
+    margin-top: 20vh;
+    font-weight: 200;
+    margin-bottom: 100px;
+    color:white;
+    font-family: lucida calligraphy; 
+    margin-left:70px;   
+}
+div ul{
+    text-align:center;
+    margin-top:20vh;
+}
+#bodyheader{ 
+    height:90vh;
+    background-image : url("header2.jpg");
+    background-position:center;
+    background-size: cover;
+    margin-top:0px;
+    background-attachment:fixed;
+    max-width: 500px;
+}  
+.img3{
+max-width:900px;
+}
+.img4{
+    margin-top: 20px;
+} 
+.img5{
+    max-width: 900px;
+}
+}
+
+@media only screen and (max-width: 500px){                           
+.img3{
+max-width:460px;
+} 
+.img2{
+    max-width:460px;
+}
+.img4{
+    max-width:460px;
+}
+.img4{
+    margin-top: 30px;
+}
+.img5{
+    max-width: 460px;
+    max-height: 320px;
+}
+.img6{
+    max-height: 500px;
+}
+}
+
+
+
+
+                                                             /*starting */
+
+#main{
+    background-color: #055160;
+}
+.aboutme{
+    size: 50px;
+    color: white;
+     font-family: "Lucida Console", "Courier New", monospace;
+}
+#all{
+   font-size:55px; 
+}
+
+#best{
+    color:orange;
+    text-shadow: 0.5 rem; 
+}
+#believe{
+   font-size:18px;
+   color:orange;
+}
+.borders{;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-right-color: white;
+  border-left-color: white;
+ 
+}
+.title{
+color:white;
+}
+.caption{
+    font-size: 18px;
+    color: orange;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.img3:hover{
+    -webkit-animation : pulse 2s;
+    animation: pulse 2s;
+}
+
+.img2:hover{
+    -webkit-animation : pulse 2s;
+    animation: pulse 2s;
+}
+.img4:hover{
+    -webkit-animation : pulse 2s;
+    animation: pulse 2s;
+}
+.img5:hover{
+    -webkit-animation : pulse 2s;
+    animation: pulse 2s;
+}
+.img6:hover{
+    -webkit-animation : pulse 2s;
+    animation: pulse 2s;
+}
+
+.img4{
+    margin-top: -22vh;
+}
+
+.img3{
+    margin-top: 0vh;
+}
+
+.heart{
+   font-size:50px;
+}
+
+
+               /* Footer*/
+ #contact {
+     background-image: url("footer2.jpg");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:0px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+    font-size: 0.95rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    /*#2857a4*/
+    color: var(--contact-light-text-color);
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+#contact-form button[type="submit"] {
+    background: transparent;
+    /*#1a1a1a;*/
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+#contact .social-icons li a i {
+
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.section-heading{
+    width:auto;
+    padding:20px 10px 10px;
+    margin:8px auto;
+    font-weight:70;
+}
+.section-heading span{
+    color:#2857a4;
+    width:auto;
+    padding-top:10px;
+    margin-right:35rem;
+    font-size:16px;
+}
+
+.skillname{
+    color:white;
+    font-size:1rem;
+    margin-left:20px;
+    margin-top:2px; 
+}
+
+section{
+    width:100%;
+      /* height:74vh; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#quote{
+    margin-left: 800px;
+    margin-top: 70px;
+    font-size: 40px;
+     font-family: "Lucida Console", "Courier New", monospace
+}
+
+
+@media only screen and (max-width: 900px){                           
+     #contact {
+     background-image: url("footer2.jpg");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:0px;
+    color: white;
+    padding-bottom: 40px;
+    max-width: 900px;
+}
+#quote{
+    margin-left: 300px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+}
+
+@media only screen and (max-width: 500px){                           
+     #contact {
+     background-image: url("footer2.jpg");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:0px;
+    color: white;
+    padding-bottom: 40px;
+    max-width: 500px;
+}
+#quote{
+    margin-left: 300px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+}
+
+@media only screen and (max-width: 300px){                           
+     #contact {
+     background-image: url("footer2.jpg");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:0px;
+    color: white;
+    padding-bottom: 40px;
+    max-width: 300px;
+}
+#quote{
+    margin-left: 300px;
+    margin-top: 25px;
+    font-size: 35px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+}
+
+@media only screen and (max-width: 300px){                           
+.img3{
+max-width:300px;
+} 
+.img2{
+    max-width:300px;
+}
+.img4{
+    max-width:300px;
+}
+.img4{
+    margin-top: 30px;
+}
+.img5{
+    max-width: 300px;
+    max-height: 320px;
+}
+.img6{
+    max-height: 300px;
+}
+}
