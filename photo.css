@@ -7,6 +7,9 @@
     background-attachment:fixed;
   /* linear-gradient(50deg, #2857a4 0%, #403066 74%);*/
 }
+#body{
+    overflow-x: hidden;
+}
 
 html{
     scroll-behavior: smooth;
@@ -159,61 +162,6 @@ div ul{
 }
 
 
-@media only screen and (max-width: 500px){                          
-#name{
-    font-size:50px;
-    margin-top: 20vh;
-    font-weight: 200;
-    margin-bottom: 100px;
-    color:white;
-    font-family: lucida calligraphy; 
-    margin-left:70px;   
-}
-div ul{
-    text-align:center;
-    margin-top:20vh;
-}
-#bodyheader{ 
-    height:90vh;
-    background-image : url("header2.jpg");
-    background-position:center;
-    background-size: cover;
-    margin-top:0px;
-    background-attachment:fixed;
-    max-width: 500px;
-}  
-.img3{
-max-width:900px;
-}
-.img4{
-    margin-top: 20px;
-} 
-.img5{
-    max-width: 900px;
-}
-}
-
-@media only screen and (max-width: 500px){                           
-.img3{
-max-width:460px;
-} 
-.img2{
-    max-width:460px;
-}
-.img4{
-    max-width:460px;
-}
-.img4{
-    margin-top: 30px;
-}
-.img5{
-    max-width: 460px;
-    max-height: 320px;
-}
-.img6{
-    max-height: 500px;
-}
-}
 
 
 
@@ -432,9 +380,9 @@ section{
     align-items:center;
 }
 #quote{
-    margin-left: 800px;
-    margin-top: 70px;
-    font-size: 40px;
+    margin-left: 500px;
+    margin-top: 60px;
+    font-size: 30px;
      font-family: "Lucida Console", "Courier New", monospace
 }
 
@@ -460,6 +408,31 @@ section{
 }
 }
 
+@media only screen and (max-width: 500px){  
+.mystyle{
+    max-width: 500px;
+}                         
+.img3{
+max-width:460px;
+} 
+.img2{
+    max-width:460px;
+}
+.img4{
+    max-width:460px;
+}
+.img4{
+    margin-top: 30px;
+}
+.img5{
+    max-width: 460px;
+    max-height: 320px;
+}
+.img6{
+    max-height: 500px;
+}
+}
+
 @media only screen and (max-width: 500px){                           
      #contact {
      background-image: url("footer2.jpg");
@@ -478,6 +451,80 @@ section{
     margin-top: 25px;
     font-size: 30px;
     font-family: "Lucida Console", "Courier New", monospace;
+}
+}
+
+@media only screen and (max-width: 500px){                          
+#name{
+    font-size:50px;
+    margin-top: 20vh;
+    font-weight: 200;
+    margin-bottom: 100px;
+    color:white;
+    font-family: lucida calligraphy; 
+    margin-left:70px;   
+}
+div ul{
+    text-align:center;
+    margin-top:20vh;
+}
+#bodyheader{ 
+    height:90vh;
+    background-image : url("header2.jpg");
+    background-position:center;
+    background-size: cover;
+    margin-top:0px;
+    background-attachment:fixed;
+    max-width: 500px;
+}  
+.img3{
+max-width:500px;
+}
+.img4{
+    margin-top: 20px;
+} 
+.img5{
+    max-width: 500px;
+}
+}
+
+
+@media only screen and (max-width: 400px){
+    #name{
+    font-size:40px;
+    margin-top: 20vh;
+    font-weight: 200;
+    margin-bottom: 100px;
+    color:white;
+    font-family: lucida calligraphy; 
+    margin-left:40px;   
+}
+
+.mystyle{
+    max-width: 350px;
+} 
+#body{
+    overflow-x: hidden;
+}
+.img3{
+max-width:350px;
+} 
+.img2{
+    max-width:350px;
+}
+.img4{
+    max-width:350px;
+}
+.img4{
+    margin-top: 30px;
+}
+.img5{
+    max-width: 350px;
+    max-height: 320px;
+}
+.img6{
+    max-width: 350px;
+    max-height: 300px;
 }
 }
 
@@ -502,21 +549,24 @@ section{
 }
 }
 
-@media only screen and (max-width: 300px){                           
+@media only screen and (max-width: 300px){
+.mystyle{
+    max-width: 300px;
+}                           
 .img3{
-max-width:300px;
+max-width:200px;
 } 
 .img2{
-    max-width:300px;
+    max-width:200px;
 }
 .img4{
-    max-width:300px;
+    max-width:200px;
 }
 .img4{
     margin-top: 30px;
 }
 .img5{
-    max-width: 300px;
+    max-width: 200px;
     max-height: 320px;
 }
 .img6{
